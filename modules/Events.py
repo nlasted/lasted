@@ -1,6 +1,5 @@
+import colorama
 from discord.ext import commands
-from art import tprint
-import colorama, os
 
 class Events(commands.Cog):
     def __init__(self, bot):
