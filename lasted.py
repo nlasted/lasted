@@ -18,7 +18,6 @@ with open('auth.json', 'r') as file:
 intents = discord.Intents.default()
 intents.message_content = True
 
-
 bot = commands.Bot(command_prefix=bot_config["prefix"], intents=intents)
 
 @bot.event
